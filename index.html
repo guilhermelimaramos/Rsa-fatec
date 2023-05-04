@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Calculadora - RSA</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Rsa</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <h1 class="titulo-header">Calculadora Rsa</h1>
+    </div>
+    <div class="calc">
+      <h1 class="titulo-calc">Calculando</h1>
+
+      <p>Valor de P: <input type="number" name="txtp" id="txtp" /></p>
+      <p>Valor de Q: <input type="number" name="txtq" id="txtq" /></p>
+      <input
+        type="button"
+        value="Calcular"
+        class="botao"
+        onclick="calcD()"
+      />
+
+      <div id="res">Resultado Aqui...</div>
+
+      <hr />
+
+      <p>Valor de D: <input type="number" name="txtd" id="txtd" /></p>
+      <input
+        type="button"
+        value="Calcular"
+        class="botao"
+        onclick="calcE()"
+      />
+
+      <div id="res-e">Resultado Aqui...</div>
+      <hr />
+
+      <p>Valor de E: <input type="number" name="txte" id="txte" /></p>
+      <p>
+        Digite o texto para criptografar:
+        <input type="text" name="txt-frase" id="txt-frase" />
+      </p>
+      <input
+        type="button"
+        value="Criptografar"
+        class="botao"
+        onclick="ascii()"
+        id="botao-criptografar"
+      />
+
+      <div id="res-criptografar">Resultado Aqui...</div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

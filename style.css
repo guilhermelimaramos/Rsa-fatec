@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  /* background-color: rgb(111, 196, 197); */
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+
+  -webkit-font-smoothing: antialised;
+  
+}
+
+.titulo-header {
+  /* color: white; */
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+}
+
+.titulo-calc {
+  /* color: white; */
+  font-weight: bold;
+  font-size: 24px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.calc {
+  border-radius: 29px;
+  background: #e0e0e0;
+  box-shadow:  32px 32px 70px #c5c5c5,
+             -32px -32px 70px #fbfbfb;
+  /* background-color: black; */
+  /* border-radius: 20px; */
+  /* color: white; */
+  min-height: 800px;
+  max-height: auto;
+  width: 800px;
+  margin: 20px auto 100px auto;
+  padding: 10px 0 30px 0;
+}
+
+p,
+.botao {
+  margin: 20px 20px;
+  font-size: 20px;
+}
+
+.botao {
+  /* width: 50%; */
+  padding: 12px 24px;
+
+  font-weight: 700;
+
+  background-color: #EA4C89;
+  color: #fff;
+
+  border-radius: 5px;
+  margin: 10px 20px;
+  border: none;
+
+  cursor: pointer;
+  transition: filter 0.2s;
+
+  font-size: 16px;
+}
+
+.res {
+  color: white;
+}
+
+#res {
+  line-height: 1.7rem;
+}
+
+div {
+  font-size: 20px;
+  margin: 20px 20px;
+}
+
+hr {
+  color: white;
+}
+
+#res-d {
+  display: block;
+}
+
+
+
+#botao-criptografar {
+  width: 150px;
+}
+
+input {
+  -webkit-box-shadow: 8px 6px 16px -12px rgba(0,0,0,0.86);
+  -moz-box-shadow: 8px 6px 16px -12px rgba(0,0,0,0.86);
+  box-shadow: 8px 6px 16px -12px rgba(0,0,0,0.86);
+}
+
+input[type=number], input[type=text] {
+  /* background-color: #E6E6E6; */
+  margin-left: 10px;
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+
+  font-size: 16px;
+}
+
+input[type=text] {
+  margin: 0;
+}
+
+#txt-frase {
+  margin-top: 10px;
+  width: 550px;
+  height: 40px;
+  font-size: 18px;
+  padding: 8px;
+}
